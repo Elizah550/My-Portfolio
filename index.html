@@ -596,22 +596,18 @@
             <div class="company">
               University of Massachusetts, Dartmouth | USA
             </div>
-
-            <ul class="bullets">
+            <ul>
               <li>
-               Rearchitected financial-document processing by replacing Hadoop-based 
-               batch workflows with a serverless, event-driven pipeline using Python, 
-                PySpark, AWS Glue, S3, Athena, and Step Functions, reducing latency by 50%.
+                Architected a <strong>Next.js</strong> web application with <strong>Flask</strong> and <strong>MongoDB</strong>, enabling users to upload financial documents and view detailed reports generated through an NLP pipeline with <strong>LangChain</strong>.
               </li>
-
               <li>
-                Developed and integrated a production document-routing service using Python,
-                BERT, and PyTorch, achieving 93% accuracy through input validation, error handling, 
-                workflow orchestration, and downstream service integration.
+                Fine-tuned <strong>ChatGPT</strong> for text extraction, boosting accuracy by <strong>30%</strong>, and utilized <strong>BERT</strong> for <strong>93%</strong> classification accuracy.
               </li>
-               <li>
-                Optimized Snowflake schemas and built transformation and scheduling pipelines with dbt, 
-                Airflow, and Python, reducing financial-report query time by 60% across data-access workflows.
+              <li>
+                Implemented <strong>Celery</strong> background workers with <strong>Redis</strong> queues to process uploaded financial documents asynchronously, preventing request timeouts and allowing users to continue using the application during report generation.
+              </li>
+              <li>
+                Managed deployments on <strong>Linux-based</strong> servers using <strong>Docker</strong>, hosting application services to provide reliable public accessibility.
               </li>
             </ul>
 
@@ -637,44 +633,36 @@
             <div class="company">
               Rhenix Lifesciences LLP | India
             </div>
-
-            <ul class="bullets">
+            <ul>
               <li>
-               Owned delivery of reusable integrations for five wearable providers Fitbit, 
-               Garmin, WHOOP, Apple Health, and Google Fit cutting onboarding time by 50% using Java, 
-               Spring Boot, OAuth 2.0, Kafka, PostgreSQL, and microservices.
+                Reduced data-transformation code by <strong>60%</strong> by building a <strong>C#</strong> and <strong>.NET</strong> service backed by <strong>Azure Service Bus</strong> that standardized activity, heart rate, sleep, and SpO2 data from multiple wearable providers, enabling consistent monitoring for diabetic patients.
               </li>
-
+            
               <li>
-                Led webhook scaling to sustain 3x peak traffic without degradation using 
-                EC2 Auto Scaling, Application Load Balancer, Docker, Kubernetes, Redis-backed 
-                workload distribution, and isolated AWS subnets.
+                Doubled clinical data analysis efficiency by correlating wearable and <strong>EMR</strong> records across five use cases, using <strong>Go</strong> services to process heart-rate and sleep data, <strong>gRPC</strong> to exchange results, and <strong>CockroachDB</strong> to manage patient records.
               </li>
-
+            
               <li>
-                Architected a unified clinical model for activity, heart rate, sleep, 
-                SpO2, and device metadata, reducing downstream transformation code by 60% using C#, .NET, 
-                Azure Service Bus, and SQL Server across workflows.
+                Developed a production <strong>RAG</strong> system ingesting <strong>Slack</strong> and <strong>Zoom</strong> conversations, indexing embeddings in <strong>Amazon OpenSearch</strong> for semantic retrieval, and generating <strong>Amazon Bedrock</strong> responses with <strong>sub-200 ms</strong> ingestion latency.
               </li>
-
+            
               <li>
-                Drove observability across synchronization workflows, reducing debugging 
-                time by 40% through CloudWatch metrics, structured logs, audit trails, webhook monitoring, 
-                and SNS alerts for token failures, delayed jobs, and malformed events.
+                Built a wearable-data analytics platform processing <strong>10,000s</strong> of events per day across <strong>10+</strong> microservices using <strong>Apache Spark</strong>, <strong>Parquet</strong>, batch and streaming pipelines, and <strong>Elasticsearch</strong> for real-time analytics.
               </li>
-
+            
               <li>
-                Led modernization of healthcare monolith into scalable Go microservices using gRPC, 
-                Kubernetes, and CockroachDB, reducing deployment time by 65% and improving reliability 
-                across high-volume patient data.
+                Validated API functionality with <strong>Postman</strong> and measured backend performance under load using <strong>JMeter</strong>, while using <strong>Grafana</strong> and <strong>Prometheus</strong> to analyze metrics and optimize system efficiency.
               </li>
-
+            
               <li>
-                Spearheaded regression and workflow test automation across engineering, 
-                QA, and product teams using Testim and Selenium, increasing testing speed by 80%,
-                reducing manual effort and latency by 25%, and accelerating release validation.
+                Prevented data loss by extending backup and recovery support for offline wearables using <strong>SAP HANA</strong> and <strong>Oracle RAC</strong>, enabling record replay after reconnection and eliminating <strong>500+</strong> synchronization failures.
+              </li>
+            
+              <li>
+                Spearheaded <strong>Testim</strong> and <strong>Selenium</strong> regression automation for wearable telemetry workflows, increasing testing speed by <strong>80%</strong> while <strong>GitHub Actions</strong> deployed Dockerized backend services to <strong>Google Kubernetes Engine</strong>.
               </li>
             </ul>
+
 
             <div class="tags">
               <span class="tag">Python</span>
@@ -709,25 +697,20 @@
               Cure Science Institute | USA (Remote)
             </div>
 
-            <ul class="bullets">
+            <ul>
               <li>
-                Engineered a persistent Android BLE scanning service that enabled 24/7 
-                real-time asset tracking while reducing battery consumption by 85% and 
-                routing location events through gateways and REST APIs to Amazon S3.
+                Engineered an Android app to track delivery packages with <strong>Bluetooth functionality</strong> (<strong>BLE tags</strong>), cutting device battery use by <strong>85%</strong> while <strong>EventBridge</strong> routed updates, <strong>Lambda</strong> processed events, and <strong>DynamoDB</strong> stored records.
               </li>
-
+            
               <li>
-              Implemented real-time device-heartbeat monitoring through MQTT, 
-              AWS IoT Core, Kinesis, CloudWatch, and SNS, reducing gateway-failure detection
-              from 15 minutes to under 1 minute using rule-based anomaly alerts.
+                Reduced incorrect weight, temperature, and distance entries by <strong>30%</strong> by building <strong>Flutter</strong> mobile applications and <strong>Angular</strong> and <strong>TypeScript</strong> web apps, validating <strong>XML</strong> and <strong>HTTP</strong> data exchanges to automatically adjust measurements based on regional settings.
               </li>
-               <li>
-              Designed and deployed a serverless backend using AWS Lambda,
-              API Gateway, DynamoDB, RDS, and EventBridge, increasing device-telemetry 
-              processing capacity by 3x across ingestion, persistence, scheduled processing,
-              and asset analytics.
+            
+              <li>
+                Minimized package-tracking gateway outage detection from <strong>15 minutes to under 1 minute</strong> by monitoring incoming <strong>MQTT</strong> messages, tracking Kinesis processing failures in <strong>CloudWatch</strong>, and sending <strong>SNS</strong> alerts when location updates stopped.
               </li>
             </ul>
+
 
             <div class="tags">
               <span class="tag">Android</span>
